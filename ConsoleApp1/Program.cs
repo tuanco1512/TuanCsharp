@@ -47,5 +47,12 @@ public class Program
         Human h = new Human();
         h.name = "Nguyen Van An";
         h.Run();
+
+        Fraction t1 = new Fraction(1, 2);
+        Fraction t2 = new Fraction(3, 4);
+        Fraction t = t1.add(t2);
+        Fraction tt = t2.add(t1);
+        Fraction ttt = t.add(tt);
+
     }
 }
