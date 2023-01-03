@@ -1,0 +1,15 @@
+E:\lap trinh\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\T2204M.exe
+E:\lap trinh\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\T2204M.deps.json
+E:\lap trinh\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\T2204M.runtimeconfig.json
+E:\lap trinh\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\T2204M.dll
+E:\lap trinh\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\T2204M.pdb
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.csproj.AssemblyReference.cache
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.GeneratedMSBuildEditorConfig.editorconfig
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.AssemblyInfoInputs.cache
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.AssemblyInfo.cs
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.csproj.CoreCompileInputs.cache
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.dll
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\refint\T2204M.dll
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.pdb
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.genruntimeconfig.cache
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\T2204M.dll
