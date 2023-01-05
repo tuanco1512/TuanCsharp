@@ -18,6 +18,11 @@ namespace T2204M.session2
             set => color = value;
         }
 
+        public Dog(): base(null)
+        {
+
+        }
+
         public Dog(string kind,double weight) : base(kind)
         {
             this.weight = weight;
