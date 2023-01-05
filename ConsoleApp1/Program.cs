@@ -1,8 +1,18 @@
 ﻿using T2204M.session1;
-
+using T2204M.session2;
 public class Program
 {
-    public static void Main(string[] args)
+    public static void Main(string[] args) 
+    {
+        //Dog d = new Dog();
+        //d.Setkind("Dog");
+        //d.Info();
+        Dog d = new Dog("Dog", 12);
+        d.Weight = 10;
+        Console.WriteLine(d.Weight);
+    }
+
+    public static void Main2(string[] args)
     {
         int x = 10;
         double y = 3.14;
@@ -54,5 +64,8 @@ public class Program
         Fraction tt = t2.add(t1);
         Fraction ttt = t.add(tt);
 
+        t.inphanSo();
+        tt.inphanSo();
+        ttt.inphanSo();
     }
 }

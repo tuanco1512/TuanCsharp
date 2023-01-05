@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace T2204M.session1
 {
     internal class Fraction
