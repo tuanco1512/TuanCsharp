@@ -43,19 +43,34 @@ namespace T2204M.phoneAssignment
             }
         }
 
+        protected override void updatePhone(String name, String oldPhone, String newPhone)
+        {
+            foreach (PhoneNumber p in getPhoneList())
+            {
+                if (p.getName().Equals(name))
+                {
+                    p.getTel().Remove(oldPhone);
+                    p.getTel().Add(newPhone);
+                    return;
+                }
+            }
+        }
+
         protected override PhoneNumber searchPhone(string name)
         {
-            throw new NotImplementedException();
+            foreach (PhoneNumber p in getPhoneList())
+            {
+                if (p.getName().Equals(name))
+                {
+                    return p;
+                }
+            }
+            return null;
         }
 
         protected override void sort()
         {
-            throw new NotImplementedException();
-        }
 
-        protected override void updatePhone(string name, string oldPhone, string newPhone)
-        {
-            throw new NotImplementedException();
         }
     }
 }

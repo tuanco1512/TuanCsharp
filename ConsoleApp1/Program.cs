@@ -1,9 +1,44 @@
 ﻿using T2204M.session1;
 using T2204M.session2;
 using System.Collections.Generic;
+using T2204M.session3;
+using T2204M.Tiendien;
+
 public class Program
 {
-    public static void Main(string[] args) 
+    public static void Main(string[] args)
+    {
+        KhachhangNN nn = new KhachhangNN("NN2", "Kidman", "01/01/2022", 50, "NN");
+        Console.WriteLine(nn.caculatedMoney());
+        KhachhangVN vn = new KhachhangVN("VN1", "Tuan", "02/02/2022", 100, "TN");
+        Console.WriteLine(vn.caculatedMoney());
+    }
+    public static void Main3(string[] args)
+    {
+        Car c = new Car() { Brand = "Toyota", Type = "Sedan"};
+        Console.WriteLine(c.machines[0]);
+        Console.WriteLine(c[1]);
+        //Console.WriteLine(c[2]);
+        //c[2] = "Led";
+        c.machines.Add("Led");
+        try
+        {
+            int x = 10;
+            int y = 0;
+            if (y== 0)
+            {
+                throw new Exception("Error...");
+            }
+            Console.WriteLine("x/y = ");
+            int z = x / y;
+            Console.WriteLine(z);
+        }catch(Exception e) 
+        {
+            Console.WriteLine(e.Message);
+        }
+    }
+
+    public static void Main2(string[] args) 
     {
         //Dog d = new Dog();
         //d.Setkind("Dog");
@@ -31,11 +66,9 @@ public class Program
         Console.WriteLine(ls.Count); // .Count -> Kich thuoc tap hop
 
         List<int> ints = new List<int>();
-
-
     }
 
-    public static void Main2(string[] args)
+    public static void Main1(string[] args)
     {
         int x = 10;
         double y = 3.14;
@@ -90,5 +123,18 @@ public class Program
         t.inphanSo();
         tt.inphanSo();
         ttt.inphanSo();
+    }
+}
+
+namespace T2204M.session3
+{
+    public class Moto
+    {
+
+    }
+
+    public class Bike
+    {
+
     }
 }
