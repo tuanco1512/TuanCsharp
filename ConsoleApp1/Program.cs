@@ -2,11 +2,59 @@
 using T2204M.session2;
 using System.Collections.Generic;
 using T2204M.session3;
+using T2204M.session4;
 using T2204M.Tiendien;
+using T2204M.interfaceAssignment;
 
 public class Program
 {
     public static void Main(string[] args)
+    {
+        Print p = new Print(ShowDanger);
+
+        p += new News().Display;
+    }
+    public static void Main5(string[] args)
+    {
+        //DemoDelegate.Alert("Cam thanh vien duoi 18 tuoi");
+        //DemoDelegate d = new DemoDelegate();
+        //d.ShowMessage("Canh bao lan thu nhat");
+        PrintString ps = new PrintString(ShowDanger);
+        //ps("Nguy hiem lam");
+        //ShowDanger("Nguy hiem lam");
+        //PrintString ps1 = new PrintString(DemoDelegate.Alert);
+        //PrintString ps2 = new PrintString(new DemoDelegate().ShowMessage);
+
+        ps += DemoDelegate.Alert;
+        ps += new DemoDelegate().ShowMessage;
+
+        ps("Nguy hiem lam");
+
+        ps += (s) =>
+        {
+            Console.WriteLine("Anonymus1: " + s);
+        };
+
+        ps += delegate (string s)
+        {
+            Console.WriteLine("Anonymus2: " + s);
+        };
+
+        PrintString ps3 = delegate (string s)
+        {
+
+        };
+
+        Button de = new Button(ps3);
+        de.ckAction();
+    }
+
+    public static void ShowDanger(string msg) 
+    {
+        Console.WriteLine("Danger: " + msg); 
+    }
+
+    public static void Main4(string[] args)
     {
         KhachhangNN nn = new KhachhangNN("NN2", "Kidman", "01/01/2022", 50, "NN");
         Console.WriteLine(nn.caculatedMoney());
