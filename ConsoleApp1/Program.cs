@@ -10,6 +10,31 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Thread t = new Thread(RunThread); 
+        t.Start();
+        Thread t2 = new Thread(delegate ()
+        {
+            Console.WriteLine("demo anonymous function");
+        });
+        t2.Start();
+        Console.WriteLine("Main done");
+    }
+
+    static void RunThread()
+    {
+        for (int i = 0;i <20; i++)
+        {
+            Console.WriteLine("i = " + i);
+            try
+            {
+                Thread.Sleep(1000);
+            }
+            catch(Exception e) { }
+        }
+    }
+
+    public static void Main6(string[] args)
+    {
         Print p = new Print(ShowDanger);
 
         p += new News().Display;

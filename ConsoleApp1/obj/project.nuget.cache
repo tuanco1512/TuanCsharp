@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "A4D8/m5n5S1wQCTJGPzwz23+5/3NSw03jHmUQkUg6pd3r1AdVVHhE1G9tjRhXTyl5qpqEYC6noCFqfg7h7PmGA==",
+  "dgSpecHash": "w+7fKyFERKHB4E/WdkV8aM5FJnP4IcQ1Yvl3CprnM3aaK/fV7fFTAJpGaCGs3yKCIfcB3nkRSF26b3QN7t8yNA==",
   "success": true,
   "projectFilePath": "E:\\lap trinh\\ConsoleApp1\\ConsoleApp1\\T2204M.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\tuanc\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
