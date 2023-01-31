@@ -13,3 +13,5 @@ E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\refint\T2204M.dll
 E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.pdb
 E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.genruntimeconfig.cache
 E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\T2204M.dll
+E:\lap trinh\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\lap trinh\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\T2204M.csproj.CopyComplete
